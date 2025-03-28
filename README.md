@@ -31,7 +31,7 @@ Une fois les **données préclassifiées**, nous explorons l’utilisation de mo
 
 ### **Méthode**
 
-Nous commençons par étiqueter un sous-ensemble des offres d'emploi en fonction des catégories de valeurs définies dans l'approche naïve puis affinées. Nous devons donc le faire la main et/ou à l'aide d'LLM compétents, cette tâche étant longue et difficile dans le cadre du sujet (beaucoup d'ambiguïtés dans le choix d'offres moins détaillées, offres parfois longues ...). Ces étiquettes servent à entraîner des modèles supervisés.
+Nous commençons par étiqueter un sous-ensemble des offres d'emploi en fonction des catégories de valeurs définies dans l'approche naïve puis affinées. Nous devons donc le faire la main et/ou à l'aide d'LLM compétents, cette tâche étant longue et difficile dans le cadre du sujet (beaucoup d'ambiguïtés dans le choix d'offres moins détaillées, offres parfois longues ...). Ces étiquettes servent à entraîner les modèles.
 
 Les modèles que nous utilisons incluent :  
 - **Régression logistique** : simple et efficace, particulièrement utile pour des problèmes de classification binaire ou multiclass.  
