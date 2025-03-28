@@ -60,10 +60,10 @@ Cette analyse nous permet de mieux comprendre les tendances et de tirer des conc
 
 ## **Conclusion**
 
-Ce projet nous a permis de mettre en place une analyse approfondie des valeurs recherchées et promues par les entreprises francaises dans leurs offres d'emploi. En combinant des approches naïves et plus avancées, telles que l’utilisation de modèles non supervisés (comme K-means et DBSCAN) et supervisés, nous avons pu classifier et analyser les entreprises en fonction de plusieurs critères.
+Ce projet nous a permis de mettre en place une analyse approfondie des valeurs recherchées et promues par les entreprises francaises dans leurs offres d'emploi. En combinant des approches naïves et plus avancées, telles que l’utilisation de modèles non supervisés (comme K-means with Elbow Method) et supervisés, nous avons pu classifier et analyser les entreprises en fonction de plusieurs critères.
 
-L'exploration des données supplémentaires, telles que , a enrichi notre compréhension des tendances et des facteurs influençant les valeurs des entreprises. 
+L'exploration des données supplémentaires, telles que [mettre des trucs] , a enrichi notre compréhension des tendances et des facteurs influençant les valeurs des entreprises. 
 
-Plusieurs pistes d'amélioration existent, notamment en affinant la classification avec des modèles plus sophistiqués, en ajustant les catégories de valeurs ou en intégrant des données externes pour renforcer nos analyses. 
+Plusieurs pistes d'amélioration existent, notamment en affinant la classification avec des modèles plus sophistiqués, en ajustant toujours plus les catégories de valeurs ou en intégrant des données externes pour renforcer nos analyses. 
 
 Ce travail ouvre la voie à une analyse encore plus fine des dynamiques entre les valeurs des entreprises et les différents facteurs économiques et sociaux, et peut servir de base pour de futures études plus détaillées dans le domaine des ressources humaines et de l'économie du travail.
