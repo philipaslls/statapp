@@ -8,6 +8,12 @@ Ici, les **valeurs** désignent les principes et qualités recherchés et promus
 Notre étude (réalisée et détaillée dans le fichier [main.py](https://github.com/philipython/statapp)) repose sur une analyse textuelle et statistique de cette BDD (**NLP** : tokenization, TF-IDF, word embeddings ...
 **Classification** : utilisation de modèles, supervisés ou non).
 
+## Table des matières
+1. [I. Une approche naïve](#i-une-approche-naïve)
+2. [II. Utilisation d'un modèle non supervisé](#ii-utilisation-dun-modèle-non-supervisé)
+3. [III. Modèles de classification supervisés](#iii-modèles-de-classification-supervisés)
+4. [IV. Analyse des résultats et exploration des données supplémentaires](#iv-analyse-des-résultats-et-exploration-des-données-supplémentaires)
+5. [Conclusion](#conclusion)
 
 ## **I. Une approche naïve** 
 
