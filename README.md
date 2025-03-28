@@ -23,7 +23,7 @@ Après l'approche naïve, nous appliquons un modèle **non supervisé** afin d'e
 
 Nous utilisons des méthodes de **clustering** : **DBSCAN** puis **K-means with Elbow Method** here, pour regrouper les offres d'emploi en fonction de leurs similarités textuelles. Pour cela, nous représentons les offres sous forme de vecteurs (à 768 dimensions) à l'aide de **CamemBERT-base 🧀 embeddings**, permettant ainsi de capturer le contexte sémantique dans les offres.  
 
-L'objectif est d'**identifier des groupes d'offres partageant des valeurs similaires, sans imposer de catégories prédéfinies**. Une analyse des clusters obtenus (en lisant quelques offres ou en les donnant à un LLM compétent) nous permet ensuite d'**interpréter les résultats** (en faisant avec ces clusters les catégories) afin d'affiner la classification choisie arbitraiement, à partir de ces résultats.
+L'objectif est d'**identifier des groupes d'offres partageant des valeurs similaires, sans imposer de catégories prédéfinies**. Une analyse des clusters obtenus (en lisant quelques offres ou en les donnant à un LLM compétent) nous permet ensuite d'**interpréter les résultats** (en faisant avec ces clusters des catégories) afin d'affiner la classification choisie arbitraiement dans la première partie, à partir de ces résultats.
 
 ## **III. Modèles de classification supervisés**
 
