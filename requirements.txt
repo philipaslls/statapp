@@ -1,0 +1,7 @@
+spacy
+pandas
+numpy
+nltk
+joblib
+scikit-learn
+imbalanced-learn
