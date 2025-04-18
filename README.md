@@ -5,7 +5,7 @@ Dans ce projet, nous analysons les valeurs des entreprises françaises à traver
 
 Ici, les **valeurs** désignent les principes et qualités recherchés et promus par les employeurs, et seront regroupés en **catégories**. 
 
-Notre étude (réalisée et détaillée dans le fichier [main.py](https://github.com/philipython/statapp)) repose sur une analyse textuelle et statistique de cette BDD (**NLP** : tokenization, TF-IDF, word embeddings ...
+Notre étude (réalisée et détaillée dans le fichier [main.py](https://github.com/philipython/statapp/blob/main/main.ipynb)) repose sur une analyse textuelle et statistique de cette BDD (**NLP** : tokenization, TF-IDF, word embeddings ...
 **Classification** : utilisation de modèles, supervisés ou non).
 
 ## Table des matières
