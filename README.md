@@ -27,7 +27,7 @@ Cette approche, bien que rudimentaire, nous permet de disposer d'une première s
 
 Après l'approche naïve, nous appliquons un modèle **non supervisé** afin d'extraire automatiquement des structures dans les données sans définir de catégories a priori, ce qui est très pertinent puisqu'un bon choix de catégories est essentiel et difficile de manière arbitraire a priori, cette étape nous aide donc à aviser sur ces choix avec les données (établir des clusters regroupant celles qui "auraient une sémantique similaire").
 
-Nous utilisons des méthodes de **clustering** : **K-means with Elbow Method** ici, pour regrouper les offres d'emploi en fonction de leurs similarités textuelles. Pour cela, nous représentons les offres sous forme de vecteurs (à 768 dimensions) à l'aide de **CamemBERT-base 🧀 embeddings**, permettant ainsi de capturer le contexte sémantique dans les offres et lregroupons ces vecteurs dans des clusters.
+Nous utilisons des méthodes de **clustering** : **K-means with Elbow Method** ici, pour regrouper les offres d'emploi en fonction de leurs similarités textuelles. Pour cela, nous représentons les offres sous forme de vecteurs (à 768 dimensions) à l'aide de **CamemBERT-base embeddings**, permettant ainsi de capturer le contexte sémantique dans les offres et lregroupons ces vecteurs dans des clusters.
 
 L'objectif est d'**identifier des groupes d'offres partageant des valeurs similaires, sans imposer de catégories prédéfinies**. Une analyse des clusters obtenus (en lisant quelques offres de chacun des clusters ou en les donnant à un LLM compétent) nous permet ensuite d'**interpréter les résultats** (en faisant avec ces clusters des catégories) afin d'affiner la classification choisie arbitraiement dans la première partie, à partir de ces résultats.
 
@@ -50,7 +50,7 @@ Les modèles que nous utilisons incluent :
 
 Nous divisons les données en un ensemble d’entraînement et un ensemble de test pour évaluer la performance des modèles. Les critères de performance incluent la **précision**, le **rappel**, et la **F-mesure** pour mesurer la qualité de la classification.
 
-Cette approche supervisée permet d'améliorer la précision de la catégorisation des offres d'emploi (par rapport aux deux premières approches), en utilisant les informations contextuelles fournies par des modèles comme **CamemBERT-base 🧀**.
+Cette approche supervisée permet d'améliorer la précision de la catégorisation des offres d'emploi (par rapport aux deux premières approches), en utilisant les informations contextuelles fournies par des modèles comme **CamemBERT-base **.
 
 ## **IV. Analyse des résultats et exploration des données supplémentaires**
 
